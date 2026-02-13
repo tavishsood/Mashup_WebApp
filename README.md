@@ -42,7 +42,3 @@ npm run dev
 ## ⚠️ Note on Performance
 
 The mashup generation process involves downloading and processing multiple audio files. Depending on the server load and the number of songs requested, the email may take a few minutes to arrive.
-
-```
-
-```
