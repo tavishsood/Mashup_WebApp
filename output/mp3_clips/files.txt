@@ -1,0 +1,3 @@
+file '/home/himanshu/assignments/predictive_stats/assignments/04_tavish_mashup/output/mp3_clips/Eminem - Lose Yourself.mp3'
+file '/home/himanshu/assignments/predictive_stats/assignments/04_tavish_mashup/output/mp3_clips/Eminem - Mockingbird [Official Music Video].mp3'
+file '/home/himanshu/assignments/predictive_stats/assignments/04_tavish_mashup/output/mp3_clips/Eminem - Without Me (Official Music Video).mp3'
