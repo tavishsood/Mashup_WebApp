@@ -14,9 +14,9 @@ import {
 export default function App() {
 	const [formData, setFormData] = useState({
 		signer: "",
-		videoCount: 5,
+		videoCount: null,
 		email: "",
-		duration: 5,
+		duration: null,
 	});
 	const [isSubmitting, setIsSubmitting] = useState(false);
 	const [isSuccess, setIsSuccess] = useState(false);
@@ -120,7 +120,7 @@ export default function App() {
 									min="1"
 									value={formData.videoCount}
 									onChange={handleChange}
-									placeholder="No. of tracks"
+									placeholder="No. of tracks (> 20)"
 									className="w-full bg-zinc-950/40 border border-zinc-800 rounded-2xl px-5 py-4 focus:outline-none focus:ring-2 focus:ring-rose-500/20 focus:border-rose-500/50 transition-all placeholder:text-zinc-700 text-zinc-200"
 								/>
 							</div>
@@ -137,7 +137,7 @@ export default function App() {
 									min="5"
 									value={formData.duration}
 									onChange={handleChange}
-									placeholder="Seconds per track"
+									placeholder="Seconds per track (> 10)"
 									className="w-full bg-zinc-950/40 border border-zinc-800 rounded-2xl px-5 py-4 focus:outline-none focus:ring-2 focus:ring-violet-500/20 focus:border-violet-500/50 transition-all placeholder:text-zinc-700 text-zinc-200"
 								/>
 							</div>
