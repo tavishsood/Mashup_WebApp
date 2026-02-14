@@ -39,6 +39,6 @@ npm run dev
 
 ```
 
-!NOTE
-Performance Note
-The mashup generation process involves downloading and processing multiple audio files. This task is network-intensive. Depending on the server load and the number of songs requested, the email may take 1-3 minutes to arrive after submission.
+> [!NOTE]
+> Performance Note
+> The mashup generation process involves downloading and processing multiple audio files. This task is network-intensive. Depending on the server load and the number of songs requested, the email may take 1-3 minutes to arrive after submission.
