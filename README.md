@@ -4,7 +4,7 @@ A full-stack web application that offers "Mashup-as-a-Service." It provides a mo
 
 **Live Demo:** [https://mashup-web-app.vercel.app/](https://mashup-web-app.vercel.app/)
 
-## ✨ Key Features
+## Key Features
 
 * **Interactive GUI:** A clean, responsive web interface built with Next.js, eliminating the need for command-line interaction.
 * **Automated Email Delivery:** Integrates with SMTP services to send the final mashup directly to the user's inbox.
@@ -12,7 +12,7 @@ A full-stack web application that offers "Mashup-as-a-Service." It provides a mo
 * **Input Validation:** rigorous client-side and server-side checks to prevent invalid requests (e.g., ensuring ).
 * **Asynchronous Processing:** Handles heavy audio processing tasks in the background without freezing the user interface.
 
-## 🎛️ Input Parameters
+## Input Parameters
 
 The application requires four specific inputs to generate a mashup. These parameters define the scope and constraints of the processing engine:
 
