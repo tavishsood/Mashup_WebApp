@@ -4,6 +4,25 @@ A full-stack web application that offers "Mashup-as-a-Service." It provides a mo
 
 **Live Demo:** [https://mashup-web-app.vercel.app/](https://mashup-web-app.vercel.app/)
 
+## ✨ Key Features
+
+* **Interactive GUI:** A clean, responsive web interface built with Next.js, eliminating the need for command-line interaction.
+* **Automated Email Delivery:** Integrates with SMTP services to send the final mashup directly to the user's inbox.
+* **Smart Compression:** Automatically converts and compresses the output audio into a **ZIP archive** (`mashup.zip`) to meet assignment delivery protocols.
+* **Input Validation:** rigorous client-side and server-side checks to prevent invalid requests (e.g., ensuring ).
+* **Asynchronous Processing:** Handles heavy audio processing tasks in the background without freezing the user interface.
+
+## 🎛️ Input Parameters
+
+The application requires four specific inputs to generate a mashup. These parameters define the scope and constraints of the processing engine:
+
+| Parameter | Type | Description | Constraint |
+| --- | --- | --- | --- |
+| **Artist Name** | `String` | The name of the singer or band to search for on YouTube. | - |
+| **Number of Videos ()** | `Integer` | The total number of unique videos to download and process. | **Must be > 10** |
+| **Duration ()** | `Integer` | The length of the audio segment to extract from the **start** of each video (in seconds). | **Must be > 20** |
+| **Email ID** | `String` | The destination email address where the final `.zip` file will be sent. | Valid Email Format |
+
 ## Architecture & Methodology
 The project implements a Client-Server architecture to handle long-running background tasks:
 
