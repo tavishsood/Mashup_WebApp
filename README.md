@@ -1,22 +1,22 @@
-# 🌐 Mashup Generator Web Service
+# Mashup Generator Web Service
 
 A full-stack web application that allows users to generate audio mashups via a graphical interface. The application processes requests asynchronously and delivers the final mashup directly to the user's email.
 
-🔗 **Live Demo:** [https://mashup-x1jv.vercel.app/](https://mashup-x1jv.vercel.app/)
+**Live Demo:** [https://mashup-x1jv.vercel.app/](https://mashup-x1jv.vercel.app/)
 
-## ✨ Key Features
+## Key Features
 * **User-Friendly Interface:** Simple form inputs for Artist, Count, and Duration.
 * **Email Delivery:** Integrates with SMTP to send the final mashup as an attachment.
 * **Smart Compression:** Automatically zips the audio file before sending to ensure efficient delivery.
 * **Input Validation:** Prevents submission of invalid parameters (e.g., Duration < 20s).
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Frontend:** Next.js (React)
 * **Backend:** Flask (Python)
 * **Audio Processing:** FFmpeg & yt-dlp
 * **Deployment:** Vercel
 
-## ⚙️ Local Development
+## Local Development
 
 ### 1. Backend Setup (Flask)
 The backend handles the scraping and audio processing.
@@ -39,6 +39,6 @@ npm run dev
 
 ```
 
-## ⚠️ Note on Performance
-
-The mashup generation process involves downloading and processing multiple audio files. Depending on the server load and the number of songs requested, the email may take a few minutes to arrive.
+[!NOTE]
+Performance Note
+The mashup generation process involves downloading and processing multiple audio files. This task is network-intensive. Depending on the server load and the number of songs requested, the email may take 1-3 minutes to arrive after submission.
