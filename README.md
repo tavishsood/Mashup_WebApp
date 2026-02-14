@@ -69,3 +69,7 @@ npm run dev
 
 > [!NOTE]
 > The mashup generation process involves downloading and processing multiple audio files. This task is network-intensive. Depending on the server load and the number of songs requested, the email may take 1-3 minutes to arrive after submission.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
