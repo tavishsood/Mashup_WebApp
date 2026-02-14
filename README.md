@@ -43,7 +43,6 @@ python app.py
 ### Frontend (Next.js)
 
 ```bash
-cd frontend
 npm install
 npm run dev
 
